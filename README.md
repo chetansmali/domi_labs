@@ -62,20 +62,20 @@ This project follows clean architecture principles, dividing the app into distin
 ---
 ### Folder Structure
 
-lib/
-├── data/
-│   ├── repositories/    # Data repositories
-│   └── models/          # Models
-│   └── datasources/     # Remote and local data sources
-├── domain/
-│   ├── entities/        # Core business entities
-│   ├── repositories/    # Domain repositories
-│   └── usecases/        # Business logic and use cases
-├── presentation/
-│   ├── blocs/           # Bloc state management
-│   ├── routes/          # Routes
-│   └── Screens/         # UI components
-└── main.dart            # App entry point
+    **lib/
+    ├── data/
+    │   ├── repositories/    # Data repositories
+    │   ├── models/          # Models
+    │   └── datasources/     # Remote and local data sources
+    ├── domain/
+    │   ├── entities/        # Core business entities
+    │   ├── repositories/    # Domain repositories
+    │   └── usecases/        # Business logic and use cases
+    ├── presentation/
+    │   ├── blocs/           # Bloc state management
+    │   ├── routes/          # Routes
+    │   └── screens/         # UI components
+    └── main.dart            # App entry point **
 
 
 ### How to Run the Project
