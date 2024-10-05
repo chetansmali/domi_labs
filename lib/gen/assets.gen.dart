@@ -38,8 +38,19 @@ class $AssetsPngsGen {
   AssetGenImage get aboveArrow =>
       const AssetGenImage('assets/pngs/above_arrow.png');
 
+  /// File path: assets/pngs/domi_logo.png
+  AssetGenImage get domiLogo =>
+      const AssetGenImage('assets/pngs/domi_logo.png');
+
+  /// File path: assets/pngs/pin_location.png
+  AssetGenImage get pinLocation =>
+      const AssetGenImage('assets/pngs/pin_location.png');
+
+  /// File path: assets/pngs/target.png
+  AssetGenImage get target => const AssetGenImage('assets/pngs/target.png');
+
   /// List of all assets
-  List<AssetGenImage> get values => [aboveArrow];
+  List<AssetGenImage> get values => [aboveArrow, domiLogo, pinLocation, target];
 }
 
 class $AssetsSvgsGen {
