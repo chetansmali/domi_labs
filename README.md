@@ -89,3 +89,6 @@ This project follows clean architecture principles, dividing the app into distin
     dart run build_runner build
    
     flutter run
+
+### Download the APK file
+https://drive.google.com/file/d/1GvpNmwGfnvUSiaYeYYxiUvie40gPYTNE/view?usp=sharing
